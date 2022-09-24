@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_info_list">
+
+    <fragment
+        android:id="@+id/navigation_info_list"
+        android:name="com.leander.momo_practice.house_info.view.ui.InfoListFragment"
+        android:label="@string/title_info_list"
+        tools:layout="@layout/fragment_info_list" >
+
+        <action
+            android:id="@+id/action_navigation_info_list_to_navigation_detail"
+            app:destination="@id/navigation_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.leander.momo_practice.house_info.detail.view.ui.DetailFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_detail" >
+
+        <action
+            android:id="@+id/action_navigation_detail_to_navigation_more_detail"
+            app:destination="@id/navigation_more_detail" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_more_detail"
+        android:name="com.leander.momo_practice.house_info.detail.more.view.ui.MoreDetailFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_more_detail" >
+    </fragment>
+</navigation>

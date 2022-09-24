@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Momo_practice</string>
+    <string name="none">無</string>
+
+    <string name="title_info_list">台北市立動物園</string>
+    <string name="title_detail">場館資訊</string>
+    <string name="title_animal_info">動物資訊</string>
+
+    <string name="web_open">在網頁開啟</string>
+    <string name="no_closed_info">無休館資訊</string>
+
+    <string name="animal_name">%1$s \n %2$s \n %3$s</string>
+    <string name="animal_house">館別：%1$s</string>
+    <string name="animal_feature">特徵： \n%1$s</string>
+    <string name="animal_behavior">習性： \n%1$s</string>
+    <string name="animal_diet">飲食： \n%1$s</string>
+    <string name="animal_crisis">現況： \n%1$s</string>
+    <string name="animal_habitat">分佈： \n%1$s \n棲息地\n%2$s</string>
+    <string name="animal_class">分類： %1$s %2$s %3$s %4$s </string>
+    <string name="animal_update">最後更新： %1$s</string>
+    <string name="animal_conservation">瀕危等級： %1$s</string>
+
+</resources>

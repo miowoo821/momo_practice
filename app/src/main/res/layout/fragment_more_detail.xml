@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".house_info.detail.more.view.ui.MoreDetailFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/toolbar"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <TextView
+                    android:id="@+id/tAnimalHouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:text="@string/animal_house" />
+
+                <TextView
+                    android:id="@+id/tName"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/animal_name" />
+
+                <TextView
+                    android:id="@+id/tClass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:text="@string/animal_class" />
+                <TextView
+                    android:id="@+id/tConservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:text="@string/animal_conservation" />
+
+
+                <TextView
+                    android:id="@+id/tHabitat"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/animal_habitat" />
+
+                <TextView
+                    android:id="@+id/tFeature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:text="@string/animal_feature" />
+
+                <TextView
+                    android:id="@+id/tBehavior"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/animal_behavior" />
+
+                <TextView
+                    android:id="@+id/tDiet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:text="@string/animal_diet" />
+                <TextView
+                    android:id="@+id/tCrisis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:text="@string/animal_diet" />
+                <TextView
+                    android:id="@+id/tUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:text="@string/animal_update" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
